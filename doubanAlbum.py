@@ -16,7 +16,7 @@ def goto(dir):
     os.chdir(cwd)
 
 INTERVAL = 0.5
-class DoubanSpider:
+class AlbumSpider:
     def __init__(self, url):
         self.url = url
 
